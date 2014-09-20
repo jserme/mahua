@@ -1,0 +1,84 @@
+body{
+  padding:0;
+  margin:0;
+}
+.mahua-left, .mahua-right{
+    width:50%;
+    height:100%;
+} 
+.mahua-right{
+    width:50%;
+    margin-left:50%;
+}
+.mahua-preview{
+    height:100%; 
+    width:100%;
+    border:none;
+}
+.mahua-toolbar, .mahua-donate-detail{
+    position:absolute;
+    top:0;
+    right:5px;
+    background:rgba(0,0,0,0.8);
+    color:#FFF;
+    padding:5px;
+    border-bottom-right-radius:5px;
+    border-bottom-left-radius:5px;
+}
+.mahua-toolbar td{
+    text-align:right;
+    padding:2px 0;
+}
+.mahua-toolbar td a{
+    color:#FFF;
+    font-size:0.8em;
+}
+.mahua-toolbar td + td{
+    text-align:left;
+}
+.mahua-topbar{
+    position:absolute;
+    margin:0px;
+    top:0;
+    right:5px;
+    height:32px;
+    padding:5px;
+}
+.mahua-topbar li{
+  width:32px;
+  height:32px;
+  display:inline-block;
+  *zoom:1;
+  *display:inline;
+}
+.mahua-config{
+    background:url('./settings.png') no-repeat;
+}
+.mahua-donate{
+    background:url('./donate.png') no-repeat;
+}
+.mahua-session{
+    background:url('./session.png') no-repeat;
+}
+.mahua-donate-detail td{
+    text-align:right;
+}
+.mahua-spliter{
+   width:3px; 
+   position:absolute;
+   left:50%;
+   height:100%;
+   z-index:10000;
+   border:2px dashed #CCC;
+   cursor:ew-resize;
+}
+.mahua-docanme{
+   position:absolute;
+   padding:5px;
+   left:50%;
+   background:rgba(0,0,0,0.8);
+   color:#fff;
+   border-bottom-right-radius:5px;
+   border-bottom-left-radius:5px;
+   z-index:99999;
+}
